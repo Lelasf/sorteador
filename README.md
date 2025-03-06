@@ -1,3 +1,6 @@
+# sorteador
+Projeto feito com base no curso de React: testando os seus componentes, da formação alura "Gerencie aplicações React com Typescript", com o intuito de fazer um sorteio de amigo secreto!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
