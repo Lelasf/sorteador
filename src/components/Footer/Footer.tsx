@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { useParticipantsList } from "../../state/hooks/useParticipantsList";
-import { FooterButton, StyledFooter } from "./Footer.styles";
+import { StyledButton, StyledFooter } from "./Footer.styles";
 import { useRandomizer } from "../../state/hooks/useRandomizer";
 
 export default function Footer() {
@@ -16,9 +16,9 @@ export default function Footer() {
 
   return (
     <StyledFooter>
-      <FooterButton disabled={participants.length < 3} onClick={start}>
+      <StyledButton disabled={participants.length < 3} onClick={start}>
         Iniciar Brincadeira!
-      </FooterButton>
+      </StyledButton>
       <img src="/images/sacolas.png" alt="Sacolas de compras" />
     </StyledFooter>
   );

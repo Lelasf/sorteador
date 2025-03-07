@@ -6,7 +6,7 @@ export const StyledFooter = styled.footer`
   justify-content: space-between;
 `;
 
-export const FooterButton = styled.button`
+export const StyledButton = styled.button`
   width: 350px;
   height: 80px;
   font-size: 20px;
